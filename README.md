@@ -1,5 +1,8 @@
 # Docs Totoro
 
+Démo :
+https://docs-totoro.netlify.app/docs/intro
+
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
@@ -40,20 +43,43 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
+📦 docs-totoro
+  ┣ 📂.docusaurus
+  ┣ 📂.github
+  ┃ ┗ 📂ISSUE_TEMPLATE
+  ┣ 📂blog
+  ┣ 📂docs
+  ┃ ┗ 📂api
+  ┃ ┗ 📂back-office
+  ┃ ┗ 📂figma
+  ┃ ┗ 📂mobile
+  ┃ ┗ 📂webapp
+  ┃ ┗ 📜intro.md
+  ┣ 📂node_modules
+  ┣ 📂src
+  ┣ 📂static
+  ┣ 📜.gitignore
+  ┣ 📜babel.config.js
+  ┣ 📜docusaurus.config.js
+  ┣ 📜package-lock.json
+  ┣ 📜package.json
+  ┣ 📜README.md
+  ┣ 📜sidebars.js
+  ┗ 📜tsconfig.json
 
 ## // TODO
 
 ### A revoir
 
-custom.css
-sidebar.js
-docusaurus.config.js
-/docs/
-/blog/
-ISSUE TEMPLATE
+- custom.css
+- sidebar.js
+- docusaurus.config.js
+- /docs/
+- /blog/
+- ISSUE TEMPLATE
 
 ## A faire
 
-template markdown
-api
-CMS ??
+- template markdown
+- api
+- CMS ??
