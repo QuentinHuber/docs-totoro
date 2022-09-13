@@ -17,7 +17,7 @@ Vous pouvez trouver toute la logique du thème dans le dossier. Basculez entre l
 
 Par exemple, si vous deviez modifier le style de la barre latérale pour le thème, vous devrez modifier la section des couleurs de la barre latérale à l'intérieur : `Pure Light`
 
-```code
+```js
 
 const themeColors = {
     primary: '#5569ff',

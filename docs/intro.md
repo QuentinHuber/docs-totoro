@@ -3,25 +3,54 @@ title: Présentation Totoro
 sidebar_position: 1
 ---
 
+![Logo](../static/logos/LogoDarkBG.png)
+
+<h4 align="center">Totoro-organization</h4>
+
+<p align="center">
+  La joie de donner mais aussi de recevoir !!
+  <br/>
+  <a href="https://docs-totoro.netlify.app/docs/intro"><strong>Documentation »</strong></a>
+</p>
+
+
+<p align="center"><a parentName="p" {...{"href":"https://github.com/totoro-organization/totoro/issues/new?assignees=-&labels=🐛%20bugfix"}}>{`Report bug`}</a>{` - `}<a parentName="p" {...{"href":"https://github.com/totoro-organization/totoro/issues/new?assignees=&labels=🚀%20feature"}}>{`Request feature`}</a>{` - `}<a parentName="p" {...{"href":"https://notrelandingpagepourtotoro"}}>{`Site`}</a></p>
+
+
+
+<p align="center">
+	<a href="https://">
+		<img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
+	</a>
+	<a href="https://">
+		<img src="https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white"/>
+	</a>
+	<a href="https://">
+		<img src="https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white"/>
+	</a>
+	<a href="https://">
+		<img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white"/>
+	</a>	
+</p>
+
 ## Totoro
 
 [Totoro](https://notrelandingpagepourtotoro) est un service de proximité proposant à ses utilisateurs des missions à réaliser avec des associations en échange de `tokens` dépensables directement dans notre boutique contre des bons de réductions chez des commerçants locaux.
 
 
-## Sommaire
+## [Sommaire](#sommaire)
 
-- [Totoro](#totoro)
-- [Sommaire](#sommaire)
-	- [Infrastructure](#infrastructure)
-- [2 - 🛠 Choix techniques 🛠](#2----choix-techniques-)
-- [3 - Retour de bugs ou d'erreurs](#3---retour-de-bugs-ou-derreurs)
-- [4 - Documentation](#4---documentation)
-	- [Services](#services)
-- [5 - Contribution](#5---contribution)
-- [6 - Version](#6---version)
-- [7 - 🙏 Merci 🙏](#7----merci-)
-- [8 - Copyright et licence](#8---copyright-et-licence)
+- [Installation](#1---installation)
+- [🛠 Choix techniques 🛠](#2----choix-techniques-)
+- [Retour de bugs ou d'erreurs](#3---retour-de-bugs-ou-derreurs)
+- [Documentation](#4---documentation)
+- [Services](#5---services)
+- [Contribution](#6---contribution)
+- [Version](#7---version)
+- [🙏 Merci 🙏](#8----merci-)
+- [Copyright et licence](#9---copyright-et-licence)
 
+## [1](#sommaire) - Installation
 
 Options d'installation :
 
@@ -57,89 +86,90 @@ La Landingpage se trouve sur ce repo : https://github.com/totoro-organization/la
 ## [2](#sommaire) - 🛠 Choix techniques 🛠
 
 > *Cliquer sur un badge, vous enverra directement sur leur site*.
-CI/CD 📦
 
- - ####  Plateforme 🧱
+### CI/CD 📦
+
+ - #####  Plateforme 🧱
 
 	[![CircleCI](https://img.shields.io/badge/circle%20ci-%23161616.svg?style=for-the-badge&logo=circleci&logoColor=white)](https://circleci.com/)
 
 
-Conteneur 🗃
+### Conteneur 🗃
 
- - ####  Outil 🛠
+ - #####  Outil 🛠
 
 	[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 
-Mobile 📱
+### Mobile 📱
 
-- ####  Methodology 📌
+- #####  Methodology 📌
 
 	[![Atomic Design](https://img.shields.io/badge/atomic%20design-%23e68a00.svg?style=for-the-badge&logo=atom&logoColor=white)](https://bradfrost.com/blog/post/atomic-web-design/)
 
 
-- ####  Langage 📖
+- #####  Langage 📖
 
 	[![Typescript](https://img.shields.io/badge/typescript-%23007acc.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-- ####  Framework ⚛
+- #####  Framework ⚛
 
 	[![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://reactnative.dev/)
 
-- ####  Component ⚙️
+- #####  Component ⚙️
 
 	[![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)](https://styled-components.com/)
 
- - ####  Outil 🛠
+ - #####  Outil 🛠
 
 	[![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37)](https://expo.dev/)
 
-App 💻
+### App 💻
 
-- ####  Langage 📖
+- #####  Langage 📖
 
 	[![Typescript](https://img.shields.io/badge/typescript-%23007acc.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-- ####  Framework ⚛
+- #####  Framework ⚛
 
 	[![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://fr.reactjs.org/)
 
-- ####  Component ⚙️
+- #####  Component ⚙️
 
 	[![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)](https://mui.com/)
 
-API 🔣
+### API 🔣
 
-- ####  Langage 📖
+- #####  Langage 📖
 
 	[![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/fr/)
 	[![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)](https://swagger.io/)
 
 [//]: # (Objectif Typescript)
 
- - ####  Outil 🛠
+ - #####  Outil 🛠
 
 	[![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://www.postman.com/)
 
-TEST 🧪
+### TEST 🧪
 
- - ####  Test unitaire
+ - #####  Test unitaire
 
 	[![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)](https://jestjs.io/)
 
 
- - ####  Test e2e
+ - #####  Test e2e
 
 	[![Cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)](https://www.cypress.io/)
 
- - ####  Exemple :
+ - #####  Exemple :
 
 	```code
 	cd webapp && npm start && npm run cypress
 	```
 	
-Hébergement 🏠
+### Hébergement 🏠
 
- - ####  Hébergement
+ - #####  Hébergement
 
 	[![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)](https://www.heroku.com/)
 	[![Netlify](https://img.shields.io/badge/netlify-%232D3B41.svg?style=for-the-badge&logo=netlify&logoColor=00C7B7)](https://www.netlify.com/)
@@ -159,7 +189,7 @@ Blablabla Doc de la webapp / bo / mobileapp / guide pour l'user.
 
 Pour l'API nous utilisons [Swagger](https://swagger.io/), la documentation est disponible via `https://api-totoro.herokuapp.com/docs`
 
-### Services
+## [5](#sommaire) Services
 
 
 | **Application**   | **URL**                                     |
@@ -173,7 +203,7 @@ Pour l'API nous utilisons [Swagger](https://swagger.io/), la documentation est d
 | Messaging-service | TODO                                        |
 
 
-## [5](#sommaire) - Contribution
+## [6](#sommaire) - Contribution
 
 
 <table>
@@ -200,7 +230,7 @@ Pour l'API nous utilisons [Swagger](https://swagger.io/), la documentation est d
   </tr>
 </table>
 
-## [6](#sommaire) - Version
+## [7](#sommaire) - Version
 
 > Dernière version : Totoro v0.01 - [Disponible ici »](https://github.com)
  - > Dernière version APK : Totoro-v0.01.apk - [Disponible ici »](https://github.com)
@@ -215,18 +245,18 @@ Pour l'API nous utilisons [Swagger](https://swagger.io/), la documentation est d
 
 [//]: # (❌ ou ✔️)
 
-## [7](#sommaire) - 🙏 Merci 🙏
+## [8](#sommaire) - 🙏 Merci 🙏
 
-[![Arcplex](https://www.arcplex.fr/wp-content/uploads/2021/10/logo-arcplex-formation.png)](https://www.arcplex.fr/)
+<p>{`Merci `}<a parentName="p" {...{"href":"https://www.arcplex.fr/"}}>{`Arcplex`}</a>{` pour l'aide apportée.`}</p>
 
-Merci [Arcplex](https://www.arcplex.fr/) pour l'aide apportée.
+<a href="https://www.arcplex.fr/"><img src="https://www.arcplex.fr/wp-content/uploads/2021/10/logo-arcplex-formation.png" width="192px" height="42px" alt="Arcplex"/></a>
 
-[![Hetic](https://www.hetic.net/sites/all/themes/hetic_v7/img/svg/logo_hetic.svg)](https://www.hetic.net/)
+<p>{`Merci `}<a parentName="p" {...{"href":"https://www.arcplex.fr/"}}>{`HETIC`}</a>{` pour cette année.`}</p>
 
-Merci [HETIC](https://www.hetic.net/) pour cette année.
+<a href="https://www.hetic.net/"><img src="https://www.hetic.net/sites/all/themes/hetic_v7/img/svg/logo_hetic.svg" width="160px" height="64px" alt="HETIC"/></a>
 
+## [9](#sommaire) - Copyright et licence
 
-## [8](#sommaire) - Copyright et licence
-
-
-#####Code and documentation copyright 2022
+<p align="center">
+Code and documentation copyright 2022
+</p>

@@ -9,7 +9,7 @@ Le router peut être configuré dans ce fichier : react-router@6src\router.tsx
 
 Vous trouverez ci-dessous un extrait de code extrait du fichier router.tsx :
 
-```code
+```js
 
 import Guest from 'src/components/Guest';
 import Authenticated from 'src/components/Authenticated';
