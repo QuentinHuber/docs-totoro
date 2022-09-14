@@ -37,16 +37,16 @@ const config = {
           editUrl:
             'https://github.com/QuentinHuber/docs-totoro/tree/main/docs/',
         },
-        versions: {
+        /*versions: {
           current: {
             label: 'v1.x',
             badge: true,
             path: 'latest',
           },
-        },
-        lastVersion: 'current',
+        },*/
+        /*lastVersion: 'current',
         showLastUpdateAuthor: true,
-        showLastUpdateTime: true,
+        showLastUpdateTime: true,*/
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
@@ -57,7 +57,7 @@ const config = {
         theme: {
           customCss: [
             require.resolve('./src/css/custom.css'),
-            require.resolve('./src/styles/custom.scss'),
+            //require.resolve('./src/styles/custom.scss'),
         ],
         },
       }),
